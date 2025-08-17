@@ -123,6 +123,11 @@ conda create -n metaclip python=3.10 pytorch torchvision pytorch-cuda=11.7 tqdm 
     -c conda-forge \
     -c anaconda
 ```
+or 
+```
+uv sync
+source .venv/bin/activate
+```
 
 ## Curation
 
